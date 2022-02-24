@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+    <!--Device tree-->
+    <project path="android_device_xiaomi_onclite"
+    	name="Dhina17/android_device_xiaomi_onclite.git"
+    	remote="github"
+    	revision="lineage-18.1"/>
+
+    <!--Kernel-->
+    <project path="android_kernel_xiaomi_onclite"
+    	name="Dhina17/android_kernel_xiaomi_onclite.git"
+    	remote="github"  
+    	revision="lineage-18.1"/>
+
+    <!--Blobs-->
+      <project path="android_vendor_xiaomi_onclite"
+    	name="Dhina17/android_vendor_xiaomi_onclite.git"
+    	remote="github"
+    	revision="lineage-18.1"/>
+
+</manifest>
