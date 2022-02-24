@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
+    <remote name="snapdragon"
+	fetch="https://github.com/Dhina17"/>
+    
     <!--Device tree-->
-    <project path="android_device_xiaomi_onclite"
-    	name="Dhina17/android_device_xiaomi_onclite.git"
-    	remote="github"
+    <project path="device/xiaomi/onclite"
+    	name="android_device_xiaomi_onclite"
+    	remote="snapdragon"
     	revision="lineage-18.1"/>
 
     <!--Kernel-->
-    <project path="android_kernel_xiaomi_onclite"
-    	name="Dhina17/android_kernel_xiaomi_onclite.git"
-    	remote="github"  
+    <project path="kernel/xiaomi/onclite"
+    	name="android_kernel_xiaomi_onclite"
+    	remote="snapdragon"  
     	revision="lineage-18.1"/>
 
     <!--Blobs-->
-      <project path="android_vendor_xiaomi_onclite"
-    	name="Dhina17/android_vendor_xiaomi_onclite.git"
-    	remote="github"
+      <project path="vendor/xiaomi/onclite"
+    	name="android_vendor_xiaomi_onclite"
+    	remote="snapdragon"
     	revision="lineage-18.1"/>
 
 </manifest>
