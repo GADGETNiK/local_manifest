@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="snapdragon"
-	fetch="https://github.com/Dhina17"/>
-     
+ 
 	<!--Device tree-->
 	<project path="device/xiaomi/onclite"
 	name="android_device_xiaomi_onclite"
-	remote="snapdragon"
+	remote="me"
 	revision="lineage-18.1"/>
 
 	<!--Kernel-->
 	<project path="kernel/xiaomi/onclite"
 	name="android_kernel_xiaomi_onclite"
-	remote="snapdragon"  
+	remote="me"
 	revision="lineage-18.1"/>
 
 	<!--Blobs-->
 	<project path="vendor/xiaomi/onclite"
-	name="android_vendor_xiaomi_onclite"
-	remote="snapdragon"
-	revision="lineage-18.1"/>
+	name="vendor_xiaomi_onclite"
+	remote="me"
+	revision="twelve"
 
 </manifest>
