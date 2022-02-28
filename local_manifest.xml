@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- 
+	<remote name="gitlab" fetch="https://gitlab.com" />
+	<project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab"/>
+
+		
 	<!--Device tree-->
 	<project path="device/xiaomi/onclite"
 	name="android_device_xiaomi_onclite"
@@ -16,8 +19,8 @@
 
 	<!--Blobs-->
 	<project path="vendor/xiaomi/onclite"
-	name="vendor_xiaomi_onclite"
-	remote="me"
-	revision="twelve"
+	name="proprietary_vendor_xiaomi/onclite"
+	remote="gitlab"
+	revision="lineage-18.1"
 
 </manifest>
