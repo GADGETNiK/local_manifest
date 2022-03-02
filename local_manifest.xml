@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="gitlab" fetch="https://gitlab.com" />
-	<project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab"/>
+    <remote name="los"
+	fetch="https://github.com/LineageOS"/>   
 
-		
-	<!--Device tree-->
-	<project path="device/xiaomi/onclite"
-	name="android_device_xiaomi_onclite"
-	remote="me"
-	revision="lineage-18.1"/>
+    <remote name="vendor"
+	fetch="https://github.com/Dhina17"/>
 
-	<!--Kernel-->
-	<project path="kernel/xiaomi/onclite"
-	name="android_kernel_xiaomi_onclite"
-	remote="me"
-	revision="lineage-18.1"/>
+    <!--Device tree-->
+    <project path="device/xiaomi/onclite"
+    	name="android_device_xiaomi_onclite"
+    	remote="los"
+    	revision="lineage-18.1"/>
 
-	<!--Blobs-->
-	<project path="vendor/xiaomi/onclite"
-	name="proprietary_vendor_xiaomi/onclite"
-	remote="gitlab"
-	revision="lineage-18.1"
+    <!--Kernel-->
+    <project path="kernel/xiaomi/onclite"
+    	name="android_kernel_xiaomi_onclite"
+    	remote="los"
+    	revision="lineage-18.1"/>
+
+    <!--Blobs-->
+    <project path="vendor/xiaomi/onclite"
+    	name="android_vendor_xiaomi_onclite"
+    	remote="vendor"
+    	revision="lineage-18.1"/>
 
 </manifest>
