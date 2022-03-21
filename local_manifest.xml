@@ -5,16 +5,14 @@
            fetch="https://github.com/GADGETNiK"/>
 
     <!-- Device Trees -->
-    <project path="device/xiaomi/jason" name="android_device_xiaomi_jason" remote="mn3" revision="cr-r"/>
-    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="mn3" revision="cr-r"/>
+    <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="me" revision="12"/>
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/jason" name="android_kernel_xiaomi_jason" remote="mn3" revision="eas-los"/>
+    <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="me" revision="twelve"/>
 
     <!-- Vendor Trees -->
-    <project path="vendor/xiaomi/jason" name="android_vendor_xiaomi_jason" remote="mn3" revision="cr-r"/>
-    <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="mn3" revision="cr-r"/>
- 
+    <project path="vendor/xiaomi/onclite" name="android_vendor_xiaomi_onclite" remote="me" revision="twelve"/>
+    
     <!-- Extras -->
 
     <!-- SEPolicy -->
