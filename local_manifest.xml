@@ -30,6 +30,6 @@
 
   <project path="hardware/qcom-caf/msm8996/display" name="hardware/qcom-caf/msm8996/display" remote="hals"/>
 
-  <project hardware/qcom-caf/wlan" name="hardware/qcom-caf/wlan" remote="hals"/>
+  <project path="hardware/qcom-caf/wlan" name="hardware/qcom-caf/wlan" remote="hals"/>
 
 </manifest>
