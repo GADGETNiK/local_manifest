@@ -16,6 +16,6 @@
   <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="tree"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/onclite" name="android_vendor_xiaomi_onclite" remote="vendor"/>
+  <project path="proprietary_vendor_xiaomi/onclite" name="proprietary_vendor_xiaomi/onclite" remote="vendor"/>
 
 </manifest>
