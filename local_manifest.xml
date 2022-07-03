@@ -22,8 +22,6 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="android_vendor_onclite" remote="vendor"/>
 
-  rm -rf hardware/qcom-caf/msm8996/audio && rm -rf hardware/qcom-caf/msm8996/media && rm -rf hardware/qcom-caf/msm8996/display && rm -rf hardware/qcom-caf/wlan
-
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware/qcom-caf/msm8996/audio" remote="hals"/>
 
   <project path="hardware/qcom-caf/msm8996/media" name="hardware/qcom-caf/msm8996/media" remote="hals"/>
