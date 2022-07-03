@@ -22,16 +22,16 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="android_vendor_onclite" remote="vendor"/>
 
-  <remove-project name="ForkLineageOS/hardware/qcom-caf/msm8996/audio" path="hardware/qcom-caf/msm8996/audio"/>
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware/qcom-caf/msm8996/audio" remote="hals"/>
+  <remove-project name="ForkLineageOS/hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio"/>
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="hals"/>
 
-  <remove-project name="ForkLineageOS/hardware/qcom-caf/msm8996/media" path="hardware/qcom-caf/msm8996/media"/>
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware/qcom-caf/msm8996/media" remote="hals"/>
+  <remove-project name="ForkLineageOS/hardware_qcom-caf_msm8996_media" path="hardware/qcom-caf/msm8996/media"/>
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="hals"/>
 
-  <remove-project name="ForkLineageOS/hardware/qcom-caf/msm8996/display" path="hardware/qcom-caf/msm8996/display"/>  
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware/qcom-caf/msm8996/display" remote="hals"/>
+  <remove-project name="ForkLineageOS/hardware_qcom-caf_msm8996_display" path="hardware/qcom-caf/msm8996/display"/>  
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="hals"/>
 
-  <remove-project name="ForkLineageOS/hardware/qcom-caf/wlan" path="hardware/qcom-caf/wlan"/>  
-  <project path="hardware/qcom-caf/wlan" name="hardware/qcom-caf/wlan" remote="hals"/>
+  <remove-project name="ForkLineageOS/hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan"/>  
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hals"/>
 
 </manifest>
