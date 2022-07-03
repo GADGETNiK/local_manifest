@@ -6,7 +6,7 @@
            revision="lineage-19.1"/>
 
    <remote name="vendor"
-           fetch="https://gitlab.com/the-muppets"
+           fetch="https://github.com/Fuss-in-android"
            revision="lineage-19.1"/>
 
  <!-- Device Trees -->
@@ -16,6 +16,6 @@
   <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="tree"/>
 
  <!-- Vendor Trees -->
-  <project path="proprietary_vendor_xiaomi/onclite" name="proprietary_vendor_xiaomi/onclite" remote="vendor"/>
+  <project path="vendor/xiaomi/onclite" name="android_vendor_onclite" remote="vendor"/>
 
 </manifest>
