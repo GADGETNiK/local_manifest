@@ -9,11 +9,6 @@
            fetch="https://github.com/Fuss-in-android"
            revision="lineage-19.1"/>
 
-   <remote name="hals"
-           fetch="https://github.com/afterallafk"
-           revision="12"/>
-  
-
  <!-- Device Trees -->
   <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="tree"/>
  
