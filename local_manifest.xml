@@ -22,7 +22,6 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="android_vendor_onclite" remote="vendor"/>
 
-  <remove-project name="ForkLineageOS/hardware_qcom-caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio"/>
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="hals"/>
 
   <remove-project name="ForkLineageOS/hardware_qcom-caf_msm8996_media" path="hardware/qcom-caf/msm8996/media"/>
