@@ -1,9 +1,24 @@
-  <?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-      <!-- SONY -->
-      <project name="dblenk-project/device_xiaomi_fog-kernel" path="kernel/xiaomi/fog" remote="github" revision="lineage-20" />
-      <project name="dblenk-project/device_xiaomi_fog" path="device/xiaomi/fog" remote="github" revision="lineage-20" />
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
-      <!-- blobs for poplar_dsds -->
-      <project name="dblenk-project/vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="github" revision="lineage-20" />
-  </manifest>
+   <remote name="tree"
+           fetch="https://github.com/dblenk-project"
+           revision="lineage-20" />
+
+   <remote name="vendor"
+           fetch="https://github.com/dblenk-project"
+           revision="lineage-20" />
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
+   
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/fog" name="device_xiaomi_fog-kernel" remote="tree" />
+
+ <!-- Vendor Trees -->   
+  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="vendor" />
+  
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
+   
+</manifest>
