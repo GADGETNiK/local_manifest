@@ -5,18 +5,11 @@
            fetch="https://github.com/dblenk-project"
            revision="lineage-20" />
 
-   <remote name="vendor"
-           fetch="https://github.com/ThankYouMario"
-            />
-
  <!-- Device Trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
    
  <!-- Kernel -->
   <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="tree" />
-
- <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi/fog" name="proprietary_vendor_xiaomi_fog" remote="vendor" />
   
   <!-- Hardware -->
 </manifest>
