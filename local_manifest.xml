@@ -7,7 +7,7 @@
 
    <remote name="vendor"
            fetch="https://github.com/ThankYouMario"
-           revision="topaz" />
+            />
 
  <!-- Device Trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
