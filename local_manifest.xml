@@ -13,12 +13,11 @@
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
    
  <!-- Kernel -->
-  <project path="kernel/xiaomi/fog" name="device_xiaomi_fog-kernel" remote="tree" />
+  <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="tree" />
 
  <!-- Vendor Trees -->   
   <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="vendor" />
   
   <!-- Hardware -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
   <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="tree" />
 </manifest>
