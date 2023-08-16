@@ -9,11 +9,15 @@
            fetch="https://github.com/dblenk-project"
            revision="lineage-19.1" />
 
+   <remote name="kernel"
+           fetch="https://github.com/dblenk-project"
+           revision="lineage-20" />
+
  <!-- Device Trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
    
  <!-- Kernel -->
-  <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" revision="lineage-20" remote="tree" />
+  <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="kernel" />
   <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="vendor" />
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="github"/>
