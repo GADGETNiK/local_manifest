@@ -17,7 +17,7 @@
    <project name="dblenk-project/kernel_xiaomi_fog-header" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
 
   <!-- hardware xiaomi -->
-   <project name="dblenk-project/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="los-20" clone-depth="1" />
+   <project name="dblenk-project/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="lineage-20" clone-depth="1" />
    
   <!-- Prebuilt Clang -->  
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
