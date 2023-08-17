@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- remote names -->
+   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="hub" fetch="https://github.com"/>
 
-   <remote name="tree"
-           fetch="https://github.com/Agatha-Prjkt"
-           revision="13" />
-   
-   <remote name="vendor"
-           fetch="https://github.com/Agatha-Prjkt"
-           revision="13" />
+  <!-- remove -->
 
- <!-- Device Trees -->
-  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="tree" />
-  <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="tree" />
+  <!-- added -->
+   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="hub" revision="lineage-20.0-caf" clone-depth="1" />
+   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" remote="hub" revision="main"  clone-depth="1"/>
+   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1" />
+
+  <!-- Sync trees -->
+   <project name="dblenk-project/device_xiaomi_fog" path="device/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
+   <project name="dblenk-project/vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />      
+   <project name="dblenk-project/kernel_xiaomi_fog-header" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
+
+  <!-- hardware xiaomi -->
+   <project name="dblenk-project/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="los-20" clone-depth="1" />
    
- <!-- Kernel -->
-  <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="kernel" />
-  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="vendor" />
- <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="vendor" />
-  <!-- Hardware -->
-  <project path="hardware/xiaomi" name="Agatha-Prjkt/android_hardware_xiaomi" revision="13" remote="github"/>
+  <!-- Prebuilt Clang -->  
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
 </manifest>
